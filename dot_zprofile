@@ -1,0 +1,7 @@
+test -s $HOME/.pyenv/bin/pyenv && eval "$($HOME/.pyenv/bin/pyenv init --path)"
+
+test -f /opt/homebrew/bin/brew && eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Added by Toolbox App
+export PATH="$PATH:/Users/erik/Library/Application Support/JetBrains/Toolbox/scripts"
+
